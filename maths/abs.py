@@ -30,7 +30,7 @@ def abs_min(x: list[int]) -> int:
         raise ValueError("abs_min() arg is an empty sequence")
     j = x[0]
     for i in x:
-        if abs_val(i) < abs_val(j):
+        if abs_val(i) < abs
             j = i
     return j
 
